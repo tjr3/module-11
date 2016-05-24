@@ -26,7 +26,7 @@ protocol Vehicle {
 }
 
 
-class Truck {
+class Truck: Vehicle {
     
     let speed: Double
     let isMoving: Bool
@@ -38,7 +38,7 @@ class Truck {
 
 }
 
-class Lawnmower {
+class Lawnmower: Vehicle {
     
     let speed: Double
     let isMoving: Bool
